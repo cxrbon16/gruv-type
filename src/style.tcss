@@ -1,12 +1,43 @@
-#content{
+Screen{
   align: center middle;
   border: heavy rgb(214, 93, 14);
   background: rgb(40, 40, 40);
-}
-
-Static{
-  width: 40%;  border: heavy rgb(104, 157, 106);
-  border: heavy rgb(69, 133, 136);
+  layout: vertical;
   content-align: center middle;
 }
 
+#content{
+  align: center middle;
+  margin-right: 40;
+  margin-left: 40;
+  content-align: center middle;
+
+}
+
+#content-label{
+  content-align: center middle;
+  align: center middle;
+  border: heavy rgb(69, 133, 136);
+}
+
+#inf {
+  height: 6%;
+  align: center middle;
+  margin-left: 50;
+  margin-right: 50;
+  box-sizing: border-box;
+}
+
+#ratio{
+  background: rgb(214, 93, 14);
+  text-style: bold;
+  text-align: center;
+  align: center middle;
+}
+
+#timer{
+  background: rgb(214, 93, 14);
+  text-style: bold;
+  text-align: center;
+  align: center middle;
+}
